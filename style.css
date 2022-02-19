@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto Mono", monospace;
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+header {
+  text-align: center;
+  margin-top: 5em;
+  color: white;
+}
+section {
+  background-color: black;
+  opacity: 0.6;
+  max-width: 800px;
+  margin: auto;
+}
+#form {
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 1em 2em 5em 1em;
+  border-radius: 5px;
+}
+ul {
+  list-style-type: none;
+}
+input {
+  border-radius: 5px;
+  background-color: white;
+}
+.text {
+  width: 80%;
+  height: 3em;
+  padding: 10px;
+}
+.two {
+  resize: vertical;
+  min-height: 100px;
+  margin-bottom: 2em;
+  border-radius: 5px;
+}
+select {
+  width: 80%;
+  height: 3em;
+}
+label {
+  line-height: 220%;
+}
+button {
+  padding: 1em;
+  width: 40%;
+  margin: auto;
+  border-radius: 5px;
+  background-color: darkgreen;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+button:hover {
+  cursor: pointer;
+  background-color: rgb(3, 129, 3);
+}
+button:active {
+  background-color: rgb(1, 83, 1);
+}

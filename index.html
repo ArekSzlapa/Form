@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Arkadiusz Szłapa Survey Form</h1>
+      <p>Thank you for taking time to help me improve</p>
+    </header>
+    <section>
+      <div id="form">
+        <ul>
+          <li>
+            <h2>Name</h2>
+            <input class="text" type="text" placeholder="Name" required />
+          </li>
+          <li>
+            <h2>Email</h2>
+            <input class="text" type="email" placeholder="Email" required/>
+          </li>
+          <li>
+            <h2>Age (optional)</h2>
+            <input class="text" type="number" placeholder="Age" />
+          </li>
+          <h2>Which option best describes your current role?</h2><select name="role">
+        <option value="Student">Student</option>
+        <option value="Full-Time-Job">Full time job</option>
+        <option value="Other">Other</option></select></li>
+          <li><h2>Would you recommend me to a friend?</h2>
+        <label><input type="radio" name="reccomend">Yes</label><label><br><input type="radio" name="reccomend">No</label><br><label><input type="radio" name="reccomend">Maybe</label></li>
+          <li><h2>What would you like to see improved? (Check all that apply)</h2>
+            <label><input type="checkbox"> Front-end Projects</label><br>
+            <label><input type="checkbox"> Back-end Projects</label><br>
+            <label><input type="checkbox"> Data Visualization</label><br>
+            <label><input type="checkbox"> Challenges</label><br>
+            <label><input type="checkbox"> Open Source Community</label><br>
+            <label><input type="checkbox"> Gitter help rooms</label><br>
+            <label><input type="checkbox"> Videos</label><br>
+            <label><input type="checkbox"> City Meetups</label><br>
+            <label><input type="checkbox"> Wiki</label><br>
+            <label><input type="checkbox"> Forum</label><br>
+        </li>
+        <li><h2>Any suggestions?</h2>
+        <textarea class="text two" placeholder="Enter your comment here"></textarea></li>
+        </ul>
+        <button type="submit">Sumbit</button>
+      </div>
+    </section>
+  </body>
+</html>
