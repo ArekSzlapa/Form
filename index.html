@@ -20,16 +20,16 @@
       <div id="form">
         <ul>
           <li>
-            <h2>Name</h2>
-            <input class="text" type="text" placeholder="Name" required />
+            <h2><label for="name">Name</label></h2>
+            <input class="text" type="text" placeholder="Name" required / name="name">
           </li>
           <li>
-            <h2>Email</h2>
-            <input class="text" type="email" placeholder="Email" required/>
+            <h2><label for="email">Email</label></h2>
+            <input class="text" type="email" placeholder="Email" required name="email"/>
           </li>
           <li>
-            <h2>Age (optional)</h2>
-            <input class="text" type="number" placeholder="Age" />
+            <h2><label for="age">Age (optional)</label></h2>
+            <input class="text" type="number" min ="0" placeholder="Age" name="age" />
           </li>
           <h2>Which option best describes your current role?</h2><select name="role">
         <option value="Student">Student</option>

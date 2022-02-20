@@ -30,6 +30,10 @@ section {
 }
 ul {
   list-style-type: none;
+  display: block;
+}
+ul label {
+  line-height: normal;
 }
 input {
   border-radius: 5px;
